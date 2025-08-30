@@ -1,0 +1,76 @@
+<!-- backend/app/templates/cv_template.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CV - {{ data.personal_data.name }}</title>
+    <link rel="stylesheet" href="{{ css_path }}">
+</head>
+<body>
+    <div class="cv-container">
+        <header class="cv-header">
+            <h1>{{ data.personal_data.name }}</h1>
+            <div class="contact-info">
+                <span>{{ data.personal_data.address }}</span>
+                <span>Email: {{ data.personal_data.email }}</span>
+                <span>Phone: {{ data.personal_data.telephone }}</span>
+            </div>
+        </header>
+
+        <!-- Only render the experience section if there are selected experiences -->
+        {% if data.experience %}
+        <section class="cv-section">
+            <h2>Experience</h2>
+            {% for job in data.experience %}
+            <div class="item">
+                <h4>{{ job.role }}</h4>
+                <p class="sub-heading">{{ job.company }} | {{ job.date }}</p>
+                <ul>
+                    {% for point in job.points %}
+                    <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </section>
+        {% endif %}
+
+        <section class="cv-section">
+            <h2>Education</h2>
+            {% for edu in data.education %}
+            <div class="item">
+                <h4>{{ edu.degree }}</h4>
+                <p class="sub-heading">{{ edu.institution }} | {{ edu.date }}</p>
+                <p>{{ edu.details }}</p>
+            </div>
+            {% endfor %}
+        </section>
+
+        <section class="cv-section">
+            <h2>Academic Projects</h2>
+            {% for project in data.academic_projects %}
+            <div class="item">
+                <h4>{{ project.title }}</h4>
+                <p class="sub-heading">{{ project.date }}</p>
+                <ul>
+                    {% for point in project.points %}
+                    <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </section>
+
+        <section class="cv-section">
+            <h2>Knowledge and Skills</h2>
+            <div class="skills-grid">
+                <p><strong>Languages:</strong> {{ data.skills.languages }}</p>
+                <p><strong>Microsoft Software:</strong> {{ data.skills.it_knowledge['Microsoft Software'] }}</p>
+                <p><strong>CAD/CAE/CAM:</strong> {{ data.skills.it_knowledge['CAD/CAE/CAM'] }}</p>
+                <p><strong>Programming:</strong> {{ data.skills.it_knowledge.Programming }}</p>
+                <p><strong>Other Skills:</strong> {{ data.skills.other_skills }}</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

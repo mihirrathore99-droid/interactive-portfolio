@@ -1,0 +1,101 @@
+{
+  "personal_data": {
+    "name": "Mihir Raj Rathore",
+    "address": "Klepperstr. 2, 83026 Rosenheim",
+    "email": "rathore.mihirraj@gmail.com",
+    "telephone": "+49 155 10031341",
+    "date_of_birth": "06.01.2000"
+  },
+  "experience": [
+    {
+      "id": "exp1",
+      "date": "04.2024 - Present",
+      "company": "BMW AG, Munich",
+      "role": "Working Student - Vehicle Integration & Noise Reduction",
+      "points": [
+        "Conducting comprehensive collision analyses on full vehicle assemblies using CATIA, ensuring compliance with functional and design requirements.",
+        "Contributing to the development of a machine learning-based clash detection system by generating controlled clash scenarios for training and validation.",
+        "Refining contact analysis process ensure accurate representation of relevant clashes in the analysis, minimizing false positives and improving system reliability."
+      ]
+    },
+    {
+      "id": "exp2",
+      "date": "03.2021 - 05.2021",
+      "company": "ELEATION, Pune - India",
+      "role": "Internship as a CAE engineer",
+      "points": [
+        "Completed a 90-day training course on geometry editing, meshing, and analysis in ANSYS.",
+        "Applied Finite Element Analysis (FEA) techniques using ANSYS software to address a real-world engineering problem involving a rack and pinion assembly.",
+        "Conducted an FEA analysis which identified that Nickel Aluminum Bronze alloy demonstrates superior strength and performance, contributing to optimizing the design and resulting in a 20% increase in structural integrity."
+      ]
+    },
+    {
+      "id": "exp3",
+      "date": "01.2021 - 03.2021",
+      "company": "JK LAKSHMI CEMENT & POWER PLANT, Pindwara, India",
+      "role": "Mechanical Engineering Intern",
+      "points": [
+        "Acquired in-depth knowledge of various machines and equipment in cement production and power plants.",
+        "Worked closely with engineering team to understand maintenance strategies and utilized data-driven insights from IBM Maximo.",
+        "Created a detailed report using SolidWorks and MS Office to analyze and document machinery, maintenance practices, and operating procedures."
+      ]
+    },
+    {
+        "id": "exp4",
+        "date": "10.2020 - 12.2020",
+        "company": "DANISH PRIVATE LTD., Jaipur, India",
+        "role": "Internship as a mechanical design engineer",
+        "points": [
+            "Gained in-depth knowledge of transformer design and optimization using SolidWorks and Fusion 360, including structural analysis using FEM.",
+            "Involved in thermal analysis and evaluation of insulating fluids, resulting in a 1.3% improvement in transformer performance.",
+            "Collaborated with a team of engineers, focusing on achieving an 8% increase in heat dissipation through innovative cooler designs."
+        ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu1",
+      "date": "03.2023 - today",
+      "institution": "Rosenheim Technical University of Applied Sciences, Rosenheim, Germany",
+      "degree": "Master's degree in engineering sciences",
+      "details": "Mechanical engineering, Average grade: 2,36"
+    },
+    {
+      "id": "edu2",
+      "date": "10.2017 - 08.2022",
+      "institution": "Vellore Institute of Technology, Vellore - India",
+      "degree": "Bachelor of Technology in Mechanical Engineering",
+      "details": "Average grade: 1,7. Bachelor thesis: Nonlinear transient response of viscoelastic sandwich panels with composite laminates face sheets (grade 1.0)"
+    }
+  ],
+  "skills": {
+    "languages": "English C1 (business fluent) | German B2 (Good) | Hindi (mother tongue)",
+    "it_knowledge": {
+      "Microsoft Software": "Word | Excel VBA | PowerPoint | Outlook",
+      "CAD/CAE/CAM": "SolidWorks | CATIA | Siemens NX | ANSYS | Solidcam",
+      "Programming": "MATLAB | Simulink | R"
+    },
+    "other_skills": "Development Process Analysis | Leadership Skills | Solution-oriented"
+  },
+  "academic_projects": [
+    {
+      "id": "proj1",
+      "date": "03.2024 - 08.2024",
+      "title": "Master Project: Additive Manufacturing of LBM Parts",
+      "points": [
+        "Conducted simulations and manufactured LBM components using Siemens NX for CAM programming and vibration analysis.",
+        "Optimized tool paths and reduced vibrations during machining of 316L stainless steel using customized clamping fixtures.",
+        "Analyzed surface quality and improved tool lifespan through detailed vibration control and advanced machining strategies."
+      ]
+    },
+    {
+      "id": "proj2",
+      "date": "10.2023 - 02.2024",
+      "title": "Academic Project: CNC Milling of a Topology",
+      "points": [
+        "Strategically applied hybrid rib roughing and 3D constant step processes to generate tool paths that enabled accurate and efficient milling of the workpiece while minimizing machining time to under 60 minutes.",
+        "Developed a 3D printed prototype of the topology to analyze the CAD geometry and optimized the CNC program for precise and efficient results."
+      ]
+    }
+  ]
+}

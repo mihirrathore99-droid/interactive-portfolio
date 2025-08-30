@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e62dfb15.css",
+    "main.js": "/static/js/main.e8ca81b9.js",
+    "static/js/453.670e15c7.chunk.js": "/static/js/453.670e15c7.chunk.js",
+    "static/media/al7475_stress.jpeg": "/static/media/al7475_stress.e07b56854efd70e81f80.jpeg",
+    "static/media/nab_stress.jpeg": "/static/media/nab_stress.4cd9da72523e94b91cc5.jpeg",
+    "static/media/profile-pic.png": "/static/media/profile-pic.a53ea1aaa45c880789b0.png",
+    "index.html": "/index.html",
+    "main.e62dfb15.css.map": "/static/css/main.e62dfb15.css.map",
+    "main.e8ca81b9.js.map": "/static/js/main.e8ca81b9.js.map",
+    "453.670e15c7.chunk.js.map": "/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e62dfb15.css",
+    "static/js/main.e8ca81b9.js"
+  ]
+}
